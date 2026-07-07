@@ -1,0 +1,44 @@
+[
+  {
+    "name": "示例电商-数码产品",
+    "url": "https://example.com/digital",
+    "category": "数码产品",
+    "selectors": {
+      "item": ".product-item",
+      "title": ".product-name",
+      "price": ".product-price",
+      "description": ".product-desc",
+      "fields": {
+        "品牌": ".brand",
+        "库存状态": ".stock-status"
+      }
+    }
+  },
+  {
+    "name": "示例招聘-技术岗位",
+    "url": "https://example.com/jobs",
+    "category": "招聘信息",
+    "selectors": {
+      "item": ".job-listing",
+      "title": ".job-title",
+      "description": ".job-description",
+      "fields": {
+        "公司": ".company-name",
+        "薪资": ".salary",
+        "地点": ".location",
+        "经验要求": ".experience"
+      }
+    }
+  },
+  {
+    "name": "示例B2B-工业品",
+    "url": "https://example.com/b2b",
+    "category": "工业品",
+    "selectors": {
+      "item": ".listing-item",
+      "title": "h3",
+      "price": ".price",
+      "description": ".summary"
+    }
+  }
+]
